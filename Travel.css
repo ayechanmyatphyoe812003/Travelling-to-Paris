@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,200;0,300;0,500;1,200&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.left-nav {
+  display: flex;
+  max-width: 27%;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a:hover {
+    font-weight: bold;
+}
+
+
+
+button:hover {
+    background-color: rgba(255, 177, 212, 0.67);
+   
+}
+
+.paris1 {
+    border-radius: 50px;
+    width: 1150px;
+    height: 450px;
+}
+
+h2{
+    position: absolute;
+    top: 250px;
+    font-size: 2.2rem;
+    font-weight: 1000;
+    left: 100px;
+    background: none;
+}
+
+strong {
+    position: absolute;
+    top: 330px;
+    font-size: 1.3rem;
+    left: 100px;
+    background: none;
+}
+
+
+
+
+
+
+

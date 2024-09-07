@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+.contact-form {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(contactbgr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-right: 200px;
+    padding-left: 300px;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 23px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    background-color: rgba(255, 255, 255, 0.714);
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 12px rgb(196, 196, 196);
+}
+
+.form-group {
+    font-size: 16px;
+}
+
+label {
+        
+        display: block;
+        margin-bottom: 5px;
+        color:black;
+    }
+
+    .form-element {
+        appearance: none;
+        outline: none;
+        border: none;
+
+        display: block;
+        width: 100%;
+
+        border-radius: 8px;
+        padding: 12px 16px;
+        background-color: rgba(246, 248, 235, 0.539);
+        transition: 0.3s;
+    }
+
+    .form-element:focus {
+        box-shadow: 0px 0px 6px rgba(132, 131, 131, 0.423);
+    }
+   
+textarea{
+ resize: none;
+ min-height: 100px;
+}
+
+.submit-group input {
+    text-align: left;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+
+    padding: 12px 16px;
+    background-color: rgba(73, 174, 241, 0.314);
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-group input:hover {
+    background-color:rgba(73, 174, 241, 0.6); ;
+}
+
+

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,200;0,300;0,500;1,200&display=swap');
+
+* { 
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.left-nav {
+  display: flex;
+  max-width: 27%;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    color: rgb(253, 156, 59);
+}
+.menu a:hover {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(255, 213, 196);
+    font-size: 13px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    padding: 4px 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(255, 144, 75, 0.67);
+   
+}
+.cover {
+    width: 100%;
+}
+
+h2{
+    position: absolute;
+    top: 130px;
+    font-size: 2.2rem;
+    font-weight: 1000;
+    left: 50px;
+    background: none;
+    color: rgb(0, 0, 0);
+}
+
+.middle {
+    padding-left: 250px ;
+    padding-right: 250px;
+}
+
+h1 {
+    top: 200px;
+    left: 50px;
+    position: absolute;
+    font-size: 2.7rem;
+    font-weight: 1000;
+    background: none;
+    color: rgb(1, 20, 86);
+}
+
+span {
+    color: rgb(39, 0, 145);
+    font-size: 2.4rem;
+}
+
+.Q {
+    font-size: 1.6rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+p { 
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.metal, .e1, .e2 {
+    width: 100%;
+}
+
